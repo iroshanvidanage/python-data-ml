@@ -28,3 +28,8 @@ pip install numpy
     - Matrices - 2-d arrays
 - A Matrix can still have only one row or one column
 
+### Arrays and Slices
+
+- When a slice is created from an array, it refers to that part of the original array.
+- Meaning that if the sliced array to be changed, then it'll affect the original array to be changed as well.
+
