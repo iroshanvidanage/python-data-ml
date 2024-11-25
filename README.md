@@ -33,3 +33,10 @@ pip install numpy
 - When a slice is created from an array, it refers to that part of the original array.
 - Meaning that if the sliced array to be changed, then it'll affect the original array to be changed as well.
 
+
+## Numpy Operations
+
+- Array with Array operations
+- Array with Scalar operations
+- Universal Array Functions
+
