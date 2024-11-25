@@ -39,4 +39,4 @@ pip install numpy
 - Array with Array operations
 - Array with Scalar operations
 - Universal Array Functions
-
+- mat.sum(axis=i) where i is 0 <= i < dimension of the array
