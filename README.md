@@ -40,3 +40,13 @@ pip install numpy
 - Array with Scalar operations
 - Universal Array Functions
 - mat.sum(axis=i) where i is 0 <= i < dimension of the array
+
+
+## Pandas
+
+- It's an open source library built on top of NumPy.
+- It allows for fast analysis and data cleaning and preparation.
+- Excels in performance and productivity.
+- Has built-in visualization features.
+- Can work with data from a wide variety of sources.
+
