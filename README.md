@@ -103,3 +103,13 @@ pip install numpy
 #### Interpolation
 
 - Interpolation is another method to fill missing values, especially useful for time series data. The `interpolate()` method can be used for this purpose.
+
+
+### Groupby
+
+- The `groupby` functionality in the pandas library is extremely powerful and useful for data aggregation and analysis. It allows you to split your data into groups based on some criteria, apply a function to each group independently, and combine the results back together.
+- **Splitting**: Use `groupby` to split the data into groups based on one or more columns.
+- **Applying**: Apply aggregation functions like `sum()`, `mean()`, `count()`, etc., to each group.
+- **Combining**: Combine the results back into a DataFrame or Series.
+- The `agg()` method allows you to apply multiple aggregation functions at once.
+- The `groupby` method is very versatile and can be used for a wide range of data aggregation and analysis tasks.
