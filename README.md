@@ -50,3 +50,14 @@ pip install numpy
 - Has built-in visualization features.
 - Can work with data from a wide variety of sources.
 
+
+### Series
+
+- A `Series` is a one-dimensional labled array capable of holding any data type (integers, strings, floats, Python objects, etc.)
+- Each elements in a `Series` is assigned a unique label known as the **index**. [pandas_series.py](./Pandas/pandas_series.py)
+    - Creating a Series
+    - Accessing Elements
+    - Basic Operations
+    - Common Methods
+    - Indexing and Slicing
+
