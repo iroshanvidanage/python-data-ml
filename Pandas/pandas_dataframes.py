@@ -47,7 +47,6 @@ print(df.iloc[1:3, 0:2])  # Rows 1 to 2 (inclusive), Columns 0 to 1 (exclusive)
 
 
 # A complete example
-import pandas as pd
 
 # Create a DataFrame from a dictionary
 data = {

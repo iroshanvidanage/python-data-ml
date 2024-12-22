@@ -44,7 +44,6 @@ df_interpolate = df.interpolate()
 
 
 # A complete example
-import pandas as pd
 
 # Create a DataFrame with missing values
 data = {
