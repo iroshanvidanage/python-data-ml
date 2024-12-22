@@ -101,3 +101,5 @@ pip install numpy
 
 
 #### Interpolation
+
+- Interpolation is another method to fill missing values, especially useful for time series data. The `interpolate()` method can be used for this purpose.
