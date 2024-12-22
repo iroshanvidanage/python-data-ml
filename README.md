@@ -72,3 +72,32 @@ pip install numpy
     - Common Methods
     - Indexing and Slicing
 
+
+### Missing Data
+
+- Handling missing data is a common task in data analysis, and the pandas library provides several powerful tools for dealing with it.
+- Identifying Missing Data
+
+
+#### Detecting Missing Values
+
+- The `isna()` or `isnull()` methods help in identifying missing values.
+- These methods return a DataFrame of the same shape with Boolean values indicating the presence of missing data.
+
+
+#### Counting Missing Values
+
+- You can count the number of missing values in each column using the `isna()` method combined with `sum()`.
+
+
+#### Dropping Missing Data
+
+- The `dropna()` method can be used to remove rows or columns with missing values.
+
+
+#### Filling Missing Values
+
+- The `fillna()` method allows you to replace missing values with a specified value, method (like forward fill or backward fill), or the mean/median/mode of the column.
+
+
+#### Interpolation
