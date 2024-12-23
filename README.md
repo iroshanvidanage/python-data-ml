@@ -113,3 +113,27 @@ pip install numpy
 - **Combining**: Combine the results back into a DataFrame or Series.
 - The `agg()` method allows you to apply multiple aggregation functions at once.
 - The `groupby` method is very versatile and can be used for a wide range of data aggregation and analysis tasks.
+- The error is due to the presence of non-numeric columns in the DataFrame. The `mean()` and `std()` functions can't be applied to the non-numeric columns, resulting in the `TypeError`.
+
+```py
+import pandas as pd
+
+data = {'Company': ['GOOG', 'GOOG', 'MSFT', 'MSFT', 'FB', 'FB'],
+        'Person': ['Sam', 'Charlie', 'Amy', 'Vanessa', 'Carl', 'Sarah'],
+        'Sales': [200, 120, 340, 124, 243, 350]}
+df = pd.DataFrame(data)
+
+# Group by 'Company'
+byComp = df.groupby('Company')
+
+# Calculate the mean only for numeric columns
+mean_sales = byComp['Sales'].mean()
+print(mean_sales)
+
+
+# or else
+mean_sales = byComp.mean(numeric_only=True)
+print(mean_sales)
+
+```
+
