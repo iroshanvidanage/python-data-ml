@@ -140,4 +140,14 @@ print(mean_sales)
 
 ### Merging, Joining and Concatenating
 
-- 
+- The `merge` is similar to SQL joins.
+    - Inner Join: Only includes rows with keys found in both dataframes.
+    - Outer Join: Includes all rows from both dataframes, filling in NaNs where data is missing.
+    - Left Join : Includes all rows from left dataframe and matched rows from right dataframe.
+    - Right Join: Includes all rows from right dataframe and matched rows from left dataframe.
+
+- The `concat` function is used to concatenate pandas objects along a particular axis with optional set logic along the other axes. It's more about stacking dataframes vertically or horizontally.
+- The `join` function works similarly to `merge` but is primarily for combining columns of the dfs based on their indexes.
+    - Default Join(Left): Includes all rows from the left dataframe and adds columns from the right dataframe that match on the index.
+    - Inner Join        : Includes only rows with indexes present in both dataframes.
+    - Outer Join        : Includes all rows from both dfs, filling in NaNs where data is missing.
