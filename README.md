@@ -151,3 +151,16 @@ print(mean_sales)
     - Default Join(Left): Includes all rows from the left dataframe and adds columns from the right dataframe that match on the index.
     - Inner Join        : Includes only rows with indexes present in both dataframes.
     - Outer Join        : Includes all rows from both dfs, filling in NaNs where data is missing.
+
+
+### Data Input and Output
+
+- Data sources as CSV, Excel, HTML and SQL.
+- Requirements: pip / conda install
+    - sqlalchemy
+    - lxml
+    - html5lib
+    - BeautifulSoup4
+    - xlrd
+    - openpyxl
+    
