@@ -163,4 +163,13 @@ print(mean_sales)
     - BeautifulSoup4
     - xlrd
     - openpyxl
-    
+
+
+## Matplotlib
+
+- A module used for data visualization in python.
+- This is created of MatLab.
+- Home page [here](https://matplotlib.org/)
+- Need to install
+    - `conda install matplotlib`
+    - `pip install matplotlib`
