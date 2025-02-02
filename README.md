@@ -173,3 +173,8 @@ print(mean_sales)
 - Need to install
     - `conda install matplotlib`
     - `pip install matplotlib`
+
+- The `plt.subplots()` is equal to doing `axes.add_axes()`
+- `plt.subplots()` will create a number of plots depending on the desired row cound and the column count.
+- `plt.subplots()` is an unpacking list which creates two values, for `fig` & `axes` where `axes` is another list.
+- Which can be iterated through for more easire controlling.
